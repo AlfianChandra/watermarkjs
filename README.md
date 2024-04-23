@@ -46,5 +46,5 @@ The Watermarker plugin has customizable configuration options to adjust the beha
 - `wmTrans` (default: 0.5): Transparency of the watermark, with a value between 0 (transparent) and 1 (opaque).
 
 ## Conclusion
-The jQuery watermarkImage plugin provides useful functionality for adding a watermark to the selected image. With customizable configuration options and available custom events, this plugin offers a practical and user-friendly solution for adding watermarks to images dynamically on a web page.
+The jQuery Watermarker plugin provides useful functionality for adding a watermark to the selected image. With customizable configuration options and available custom events, this plugin offers a practical and user-friendly solution for adding watermarks to images dynamically on a web page.
 
