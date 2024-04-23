@@ -1,4 +1,4 @@
-# Watermarker.js
+# Watermarker.js - Simple jQuery Plugin by Alfian Chandra
 
 ## Description
 The jQuery Watermarker plugin allows users to add a watermark to the selected image through a file input element. With this plugin, users can customize the position, size, and transparency of the watermark according to their preferences. This plugin provides a practical solution for dynamically adding watermarks to images on a web page.
