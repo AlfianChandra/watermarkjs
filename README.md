@@ -25,12 +25,15 @@ After including the plugin in your web page, you can use it by selecting the fil
 2. JavaScript:
    ```javascript
    $(document).ready(function() {
-       $('#imageInput').watermarkImage('watermark.png', {
-           jarak: 50,      // Distance between watermarks
-           wmSizeX: 160,   // Width of the watermark
-           wmSizeY: 50,    // Height of the watermark
-           wmTrans: 0.5    // Transparency of the watermark
-       });
+    $("#imageInput").watermarkImage("path/to/watermark.png", function(finalImage) {
+        // Do something with finalImage, such as displaying it in a preview or sending it to the server.
+        console.log("Final image URL:", finalImage);
+    }, {
+        jarak: 50,        // Spacing between watermarks (default: 50)
+        wmSizeX: 160,     // Width of the watermark (default: 160)
+        wmSizeY: 50,      // Height of the watermark (default: 50)
+        wmTrans: 0.5      // Transparency of the watermark (default: 0.5)
+    });
    });
    ```
 
